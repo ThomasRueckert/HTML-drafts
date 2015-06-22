@@ -1,0 +1,40 @@
+section {
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 1;
+}
+
+.wrapper {
+    margin: auto;
+    width: 1000px;
+
+}
+
+section h1 {
+    line-height: 1px;
+    font-weight: lighter;
+}
+
+section {
+    background-color: #ffe1d2;
+    padding: 20px 20px 20px 20px;
+    border-radius: 3px;
+}
+
+body {
+    background-color: #551600;
+    color: #AA5639;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+header {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+footer {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: right;
+}
