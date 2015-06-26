@@ -37,7 +37,9 @@ footer, header {
 }
 
 header {
-    position: absolute;
+    position: fixed;
+    top: 20px;
+    left: 0;
     width: 100%;
     z-index: 2;
 }
@@ -49,7 +51,9 @@ footer {
 }
 
 nav {
-    position: absolute;
+    position: fixed;
+    top: 20px;
+    left: auto;
     margin-top: 55px;
     margin-left: 20px;
     z-index: 1;

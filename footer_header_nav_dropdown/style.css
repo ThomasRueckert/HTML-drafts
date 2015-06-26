@@ -19,11 +19,60 @@ header {
     left: 0;
 }
 
-#companyName {
+#companyName, #dropdown {
     text-transform: uppercase;
     color: #dde5e7;
     font-size: 20px;
     padding-top: 12px;
+}
+
+#dropdown a {
+    color: #dde5e7;
+    text-decoration: none;
+}
+
+#companyName {
+    float: left;
+}
+
+#menu:hover #dropdown {
+    max-height: 1000px;
+}
+
+#dropdown {
+    float: right;
+    background-color: #4899e7;
+    padding: 12px 10px 4px 30px;
+    max-height: 0;
+    transition: max-height 0.4s;
+}
+
+#dropdown ul {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+#dropdown:hover ul {
+    padding-top: 10px;
+    margin-left: 10px;
+
+}
+
+#dropdown ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    list-style-type: none;
+    display: none;
+}
+
+#dropdown ul li:hover {
+    padding-left: 5px;
+}
+
+#dropdown:hover ul li {
+    transition: padding-left 0.1s;
+    display: block;
+
 }
 
 .wrapper {
@@ -71,7 +120,8 @@ section {
 }
 
 section h1, section h2, section h3, section h4, section h5, section h6 {
-    margin: 45px 0 10px 0;
+    margin: -15px 0 10px 0;
+    padding-top: 60px;
 }
 
 section a {

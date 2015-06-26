@@ -55,6 +55,9 @@ header {
     border: outset #66976F 2px;
     border-radius: 3px;
     background-color: #B7CDBB;
+    position: fixed;
+    top: 10px;
+    left: auto;
 }
 
 header li {
